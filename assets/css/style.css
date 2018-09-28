@@ -1,0 +1,547 @@
+*{
+	
+}
+
+
+.myNavBar{
+	position: fixed;
+	width: 100%;
+}
+
+/*font style*/
+
+/*font-family: 'Notable', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Kodchasan', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Jura', sans-serif;
+*/
+
+h1{
+	font-family: 'Notable', sans-serif;
+	font-size: 2em;
+}
+
+h2 {
+	font-family: 'Lobster', cursive;
+	animation-duration: 2s;
+}
+
+h3{
+	font-family: 'Dancing Script', cursive;
+}
+
+h4{
+	font-family: 'Poiret One', cursive;
+}
+
+p{
+	font-family: 'Jura', sans-serif;
+}
+
+.duration-2s{
+	animation-duration: 1.5s;
+}
+
+/*font style*/
+
+.dropdown:hover>.dropdown-menu{
+	display: block;
+
+}
+
+
+.jumbotron-bg{
+	background: url(../images/gif/waterdrops.gif);
+	background-size: cover;
+}
+
+th, td , table{
+	font-size: 0.8em;
+}
+
+.myMap{
+	width: 100%;
+}
+
+iframe{
+	width: 100%;
+}
+
+.box{
+	align-content: center;
+	height: 18%;
+	width: 18%;
+	position: relative;
+	padding: 1px;
+	border: 1px solid white;
+}
+
+.socialMediaIcon .fab {
+	font-size: 40px;
+	transition: .5s;
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	margin: 5px;
+
+}
+
+.fab:hover{
+	transform: rotateY(360deg);
+}
+
+
+.fa-facebook-f{
+	background: #3b5999;
+}
+
+.fa-twitter{
+	background: #55acee;
+}
+
+.fa-github{
+	background: black;
+}
+
+
+.fa-gitlab{
+	background: #c9510c;
+}
+
+.fa-youtube{
+	background: #ff0000;
+}
+
+.fa-google{
+	background: #008744;
+}
+
+.jumbotron-contact{
+	height: 38%;
+	background: url(../images/typing.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	border-top-right-radius: 30%;
+	border-bottom-left-radius: 30%;
+}
+
+.myImage{
+	background: url(../images/me.png);
+}
+
+.sample-works{
+	height: 100px;
+	width: 150px;
+}
+/*.myContactPage{
+	height: 85vh;
+}*/
+
+/*fillup form*/
+
+
+
+/*fillup form*/
+/*.border-contact{
+	border: 1px solid lightgray;
+	padding: 5px;
+	border-radius: 10px;
+	width: 100%;
+}
+*/
+
+/*bootsrap color costumize*/
+/*.btn-outline-primary, .bg-primary{
+	color: pink;
+	border-color: pink;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus{
+	color: white;
+	border-color: pink;
+	background: pink;
+}
+
+*/
+/*bootsrap color costumize*/
+
+
+
+
+
+/*donation*/
+.bank-thead{
+	margin: 0 auto; 
+	color: #003b71;
+	background: #ffb653;
+}
+
+.bdo{
+	background: #0b2972;
+	color: #ffb20c;
+}
+
+.unionbank{
+	background: #1b0d62;
+	color: #ffb653;
+}
+
+.eastwest{
+	background: #d5e04d;
+	color: #950b76;
+}
+
+.bank-table{
+	width: 80%;
+}
+/*end of donation*/
+
+
+/*start blog css*/
+.myFrameBlog{
+	width: 100%;
+	height: 85vh;
+}
+
+.landing-page-bg{
+	background: url(../images/resortbg.jpg);
+	background-size: cover;
+	height: 100vh;
+	background-attachment: fixed;
+}
+
+.landing-page{
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 35%);
+
+}
+
+.bg-blog{
+	background: url(../images/gif/waterdrops.gif);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.myblog{
+	background: url(../images/resortbg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/*carousel costumize*/
+/*.carousel-indicators li {
+  background: url(../images/resortbg.jpg);
+  background-size: cover;
+  width: 60px;
+  height: 30px;
+}*/
+
+.carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+/*carousel costumize*/
+
+
+/*end blog css*/
+
+
+/*about page start*/
+
+.bg-testimonial{
+	background: url(../images/bg-testimonial.jpg);
+	background-size: cover;
+	background-repeat:repeat;
+	background-attachment: fixed;
+}
+
+
+.carousel-image{
+	margin-top: 15px;
+	margin-bottom: 40px;
+	/*margin-left: 150px;*/
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	border:5px solid white;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+
+
+}
+.carousel-testimonial{
+	margin-top: 10px;
+	margin-bottom: 40px;
+	color: white;
+	font-family: 'Dancing Script', cursive;
+
+}
+
+
+.carousel-client-name, .carousel-client-description{
+	color: white;
+	font-family: 'Kodchasan', sans-serif;
+}
+
+
+.carousel-indicators-button li{
+	height: 32px;
+	width: 32px;
+}
+
+#client1{
+	background: url(../images/client/client1.jpg);
+	background-size: cover;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+#client2{
+	background: url(../images/client/client2.jpg);
+	background-size: cover;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+#client3{
+	background: url(../images/client/client3.jpg);
+	background-size: cover;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+#client4{
+	background: url(../images/client/client4.jpg);
+	background-size: cover;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+#client5{
+	background: url(../images/client/client5.jpg);
+	background-size: cover;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*.carousel-client-description{
+	clear: both;
+	border-bottom: 2px solid black;
+	position: absolute;
+}*/
+
+
+.fa-code{
+	height: 100%;
+	width: 100%;
+	margin-top: 15%;
+}
+.code-icon-box{
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	/*background: lightgray;*/
+	/*margin-left: 20px;*/
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.socialMediaIcon2 .fab {
+	font-size: 40px;
+	transition: .5s;
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	margin: 3px;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.sample-works{
+	border: 2px solid white;
+	border-radius: 10%;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.shadow-effect{
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+/*.targeting{
+	background: lightgray;
+}*/
+
+.vision{
+	border-radius: 100%;
+	height: 80px;
+	width: 80px;
+	background: white;
+}
+
+/*
+.target-box:hover {
+	margin: -10px;
+	
+}
+*/
+
+.card{
+	border-radius: 0;
+}
+
+.qlinks:hover{
+	margin-left: 10px;
+}
+
+
+.aboutHeader{
+	background: url(../images/header/1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.button-know-more{
+	background-color: transparent;
+	/*border-radius: 100%;*/
+}
+
+.resort-header-title{
+	background: url(../images/resorts/chair.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 20px;
+}
+
+.resort-main-bg{
+	background: url(../images/resorts/blackandwhite.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.resort-main-bg2{
+	background: url(../images/resortbg.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.resort-main-bg3{
+	background: url(../images/resorts/floor.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+.resort-details-bg{
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.resort-details-bg2{
+	background: rgba(255, 255, 255, 0.5);
+}
+
+
+.text-shadow-effect{
+	text-shadow: rgb(3, 3, 3) 1px 3px 20px;
+}
+
+
+.jumbotron-contact-bg{
+	background: url(../images/gif/pool.gif);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+.text-danger{
+	color:  #96394e;
+}
+
+.text-success{
+	color: #009c86;
+}
+
+.text-warning{
+	color: #eed384;
+}
+
+.bg-primary{
+	background-color: #05354b;
+}
+
+.bg-danger{
+	background-color: #96394e;
+}
+.bg-success{
+	background-color: #009c86;
+}
+
+
+.bg-info{
+	background-color: #0397a1;
+}
+
+.bg-warning{
+	background-color: #eed384;
+}
+
+
+.bg-pink{
+	background-color: #eca48e;
+}
+
+
+.btn{
+	border-radius: 0%;
+}
+
+
+.btn, .btn-outline-primary{
+	
+	background: rgba(0, 0, 0, 0.2);
+}
+
+
+.outlook{
+	background: #eed394;
+
+}
+
+.values{
+	background: #96394e;
+
+}
+
+.mission{
+	background: #96394e;
+
+}
+
+.bg-vision{
+	background: #eca48e;
+}
+
+
+/*.resort-page-bg:hover{
+	background: url(../images/resortbg.jpg);
+	filter: blur(0px);
+  -webkit-filter: blur(0px);
+    background-size: cover;
+  background-attachment: fixed;
+}
+*/
+
+
+/*Tablet*/
+@media only screen and (min-width: 401px) and (max-width: 960px){
+
+}
+
+
+/*Mobile*/
+@media only screen and (min-width: 401px) and (max-width: 960px){
+
+}

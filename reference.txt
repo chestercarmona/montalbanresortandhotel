@@ -1,0 +1,35 @@
+http://fivestar.mikado-themes.com/bed-and-breakfast/
+
+http://fivestar.mikado-themes.com/city-tourism/#
+
+
+ 
+montalban resort
+(home)     > news
+	> events
+	> promo
+	> 
+
+about us >my info
+	>mission
+	>vision
+	>team
+ 
+resorts     > Resorts name (jumbotron)
+	> Gallery (carousel)
+	> Room & Price (card(table))
+	> contact us (map&info)
+
+blog	> gallery
+	> faqs
+	> 
+	
+contact us
+	>map
+	>contact
+	>aboutme
+	>subscribe
+
+
+
+http://www.balaiputi.com/?gclid=Cj0KCQjw3KzdBRDWARIsAIJ8TMQ6mA_Vu5i0lmRv4j2d5VGX0jZxZpbeVqyB-v5GnxLDkiPXlNZcB3YaAl4PEALw_wcB

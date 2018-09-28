@@ -1,0 +1,23 @@
+.mega-menu{
+	width: 100vh;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.nav { 
+	margin-bottom: 0; 
+}
+
+.dropdown { 
+	position: static; 
+
+}
+
+.dropdown-menu { 
+	width: 100%; text-align: center; 
+	border-radius: 0;
+}
+
+.dropdown-menu>li { 
+	display: inline-block; 
+}
